@@ -1,8 +1,8 @@
 name = "patrickckingcom"
-account_id = "c4e02d143ae74ca9b204406b54266472"
+account_id = ""
 type = "webpack"
 workers_dev = false
-zone_id = "fda9df394a5d6982d81bc479c5305bc5"
+zone_id = ""
 route = "*.patrickcking.com/*"
 
 [site]

@@ -1,0 +1,53 @@
+https://keybase.io/king
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of http://www.patrickcking.com
+  * I am king (https://keybase.io/king) on keybase.
+  * I have a public key ASC2WS0VbXlBy4VT27fzRzcmMAMBelBi45pENHsTNFok1go
+
+To do so, I am signing this object:
+
+{
+  "body": {
+    "key": {
+      "eldest_kid": "01013589cf2db6ae1616f66ea7ab3af6e7ed02452ede1cc97fab3366925121e788490a",
+      "host": "keybase.io",
+      "kid": "0120b6592d156d7941cb8553dbb7f34737263003017a5062e39a44347b13345a24d60a",
+      "uid": "9f225787ae98779492b5235cb8480700",
+      "username": "king"
+    },
+    "merkle_root": {
+      "ctime": 1550739996,
+      "hash": "f16c0be55b48fde55ab4e29f37481885118b6665fd7b045afe6792d6ce2b6464aee4d118798121d1dc61badd67fe12a6d1443c47b87ada3c6f7c3d1cfb65a662",
+      "hash_meta": "1f4e5cdfc58ea0009b29637431eed039e7461776ce69dc812cec6de4dbb87366",
+      "seqno": 4804013
+    },
+    "service": {
+      "entropy": "oGQmMmadZD1skzNguXjQUjcU",
+      "hostname": "www.patrickcking.com",
+      "protocol": "http:"
+    },
+    "type": "web_service_binding",
+    "version": 2
+  },
+  "client": {
+    "name": "keybase.io go client",
+    "version": "3.0.0"
+  },
+  "ctime": 1550740030,
+  "expire_in": 504576000,
+  "prev": "a870a01b8a2a21f40d60a4ad06eb8e092139c616641a1957360a1a3c5380912c",
+  "seqno": 86,
+  "tag": "signature"
+}
+
+which yields the signature:
+
+hKRib2R5hqhkZXRhY2hlZMOpaGFzaF90eXBlCqNrZXnEIwEgtlktFW15QcuFU9u380c3JjADAXpQYuOaRDR7EzRaJNYKp3BheWxvYWTESpcCVsQgqHCgG4oqIfQNYKStBuuOCSE5xhZkGhlXNgoaPFOAkSzEIKGbLY8vosUZT7LRnvSQHW1qvNALa9gX7tsORKOOPqXoAgHCo3NpZ8RAnnjHvcBPyMfzvnPUTWd7e6mn8DctH6PxBUi3S24WP6ON1HUm7k6x30UnMcjqw2+x8Esop1U1NUmm4WzoVpUSAqhzaWdfdHlwZSCkaGFzaIKkdHlwZQildmFsdWXEIE+bA1D6WvG/M1jUCyR/+uEjP/LwQqxX670ToKPU+i4wo3RhZ80CAqd2ZXJzaW9uAQ==
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/king
