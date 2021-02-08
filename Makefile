@@ -9,5 +9,9 @@ help:  ## Display this help
 test_env: ## Are we sourceing the .env file correctly?
 	env
 
+test: ## Build site and run hugo in localhost mode
+	make -C hugo test
+
 publish: ## Publish the website to IPFS
+	make -C hugo build
 	ipd -p infura -p pinata -d cloudflare -O
