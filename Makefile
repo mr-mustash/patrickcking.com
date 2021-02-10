@@ -13,7 +13,6 @@ test_env: ## Are we sourceing the .env file correctly and does it have the right
 	env | grep 'IPFS_DEPLOY_CLOUDFLARE__API_KEY' > /dev/null
 	env | grep 'IPFS_DEPLOY_CLOUDFLARE__ZONE' > /dev/null
 	env | grep 'IPFS_DEPLOY_CLOUDFLARE__RECORD' > /dev/null
-	env | grep 'FAILBOAT' > /dev/null
 
 sign_markdown: ## Sign all markdown files and publish signatures at https://www.patrikcking.com/signatures/mardown/
 	./bin/sign_markdown.sh
@@ -25,11 +24,13 @@ sign_html: ## Sign all HTML files and publish signatures at https://www.patrikck
 	rm -rf ./public_temp
 
 local: sign_markdown sign_html ## Build site and run hugo in localhost mode
+	git submodule update --init --recursive --remote
 	make -C hugo local
 
 public: sign_markdown sign_html ## Refresh `./public` folder
+	git submodule update --init --recursive --remote
+	rm -rf public
 	make -C hugo build
 
-publish: test_env sign_markdown sign_html build  ## Publish the website to IPFS
-	make -C hugo build
+publish: test_env sign_markdown sign_html public  ## Publish the website to IPFS
 	ipd -p infura -p pinata -d cloudflare -O

@@ -4,7 +4,7 @@ date = "2021-02-10"
 [ author ]
   name = "Patrick C King"
 +++
-Lots and lots of events!
+As I'm deploying this website we are still in the middle of the Covid-19 pandemic so I haven't finished this page yet. However, eventually there will sign-up form here so you can be emailed whenever I host and event or party!
 
 
 ---
