@@ -16,4 +16,4 @@ So, here we are. The first blog post of my new IPFS hosted, Hugo website. I donâ
 
 
 ---
-This page's [markdown](https://raw.githubusercontent.com/mr-mustash/patrickcking.com/master/hugo/content/blog/20210210-new-website.md}) can be verified with [this signature](/signatures/markdown/blog/20210210-new-website.md.sig) and it's HTML can be verified with [this signature](/signatures/html/{{< relref "blog/20210210-new-website.md" >}}/index.html.sig).
+This page's [markdown](https://raw.githubusercontent.com/mr-mustash/patrickcking.com/master/hugo/content/blog/20210210-new-website.md) can be verified with [this signature](/signatures/markdown/blog/20210210-new-website.md.sig) and it's HTML can be verified with [this signature](/signatures/html/{{< relref "blog/20210210-new-website.md" >}}/index.html.sig).

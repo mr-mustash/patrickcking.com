@@ -25,7 +25,7 @@ do
     fi
 
     echo "Modifing ${relative_name} with the following text:"
-    sign_string="\n---\nThis page's [markdown](https://raw.githubusercontent.com/mr-mustash/patrickcking.com/master/${file}}) can be verified with [this signature](/signatures/markdown/${relative_name}.sig) and it's HTML can be verified with [this signature](/signatures/html/{{< relref \"${relative_name}\" >}}/index.html.sig)."
+    sign_string="\n---\nThis page's [markdown](https://raw.githubusercontent.com/mr-mustash/patrickcking.com/master/${file}) can be verified with [this signature](/signatures/markdown/${relative_name}.sig) and it's HTML can be verified with [this signature](/signatures/html/{{< relref \"${relative_name}\" >}}/index.html.sig)."
     echo "${sign_string}"
 
     echo -e "\n${sign_string}" >> ${file}
