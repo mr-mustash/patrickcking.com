@@ -18,4 +18,4 @@ Other forms of communication should be encrypted with my GPG public key ([0x2A59
 
 
 ---
-This page's [markdown](https://raw.githubusercontent.com/mr-mustash/patrickcking.com/master/hugo/content/contact.md}) can be verified with [this signature](/signatures/markdown/contact.md.sig) and it's HTML can be verified with [this signature](/signatures/html/{{< relref "contact.md" >}}/index.html.sig).
+This page's [markdown](https://raw.githubusercontent.com/mr-mustash/patrickcking.com/master/hugo/content/contact.md) can be verified with [this signature](/signatures/markdown/contact.md.sig) and it's HTML can be verified with [this signature](/signatures/html/{{< relref "contact.md" >}}/index.html.sig).

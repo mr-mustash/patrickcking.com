@@ -8,4 +8,4 @@ As I'm deploying this website we are still in the middle of the Covid-19 pandemi
 
 
 ---
-This page's [markdown](https://raw.githubusercontent.com/mr-mustash/patrickcking.com/master/hugo/content/events.md}) can be verified with [this signature](/signatures/markdown/events.md.sig) and it's HTML can be verified with [this signature](/signatures/html/{{< relref "events.md" >}}/index.html.sig).
+This page's [markdown](https://raw.githubusercontent.com/mr-mustash/patrickcking.com/master/hugo/content/events.md) can be verified with [this signature](/signatures/markdown/events.md.sig) and it's HTML can be verified with [this signature](/signatures/html/{{< relref "events.md" >}}/index.html.sig).
