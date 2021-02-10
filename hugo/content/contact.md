@@ -14,7 +14,7 @@ Below are my preferred contact methods in order of preference. Most of them are 
 * SMS Text Message
 * Phone Calls
 
-Other forms of communication should be encrypted with my GPG public key ([0x2A590EC935F55DB1](https://keyserver.ubuntu.com/pks/lookup?search=0x2A590EC935F55DB1&fingerprint=on&op=index)) if you want our communication to remain encrypted.
+Other forms of communication should be encrypted with my GPG public key ([0x2A590EC935F55DB1](https://keyserver.ubuntu.com/pks/lookup?search=0x2A590EC935F55DB1&fingerprint=on&op=index)) if you want our communication to remain private.
 
 
 ---
