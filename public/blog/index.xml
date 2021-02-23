@@ -14,8 +14,8 @@
       <pubDate>Tue, 23 Feb 2021 09:50:19 -0800</pubDate>
       
       <guid>https://patrickcking.com/2021/02/gpg-key-transition-statement/</guid>
-      <description>I have created a new GPG Key 0x944E36F397047609 and will be transitioning away from my old key. If you have signed my previous key I would appreciate signatures on my new key as well. I have included a signed transition statement below which can also be found at www.patrickcking.com/key-transition-2021-02-23.txt if you prefer to download it.
------BEGIN PGP SIGNED MESSAGE----- Hash: SHA512 OpenPGP Key Transition Statement for Patrick King I have created a new OpenPGP key and will be transitioning away from my old key.</description>
+      <description>I have created a new GPG Key 0x944E36F397047609 and will be transitioning away from my old key. I have also learned that ProtonMail (my provider) requires a primary key for management. As this is not something I am willing to give them, there will be a mismatch between my keys for email and everything else. You can find my new ProtonMail public key here.
+If you have signed my previous key I would appreciate signatures on my new key as well.</description>
     </item>
     
     <item>

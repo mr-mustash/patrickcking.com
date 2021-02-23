@@ -14,8 +14,8 @@
       <pubDate>Tue, 23 Feb 2021 09:50:19 -0800</pubDate>
       
       <guid>https://patrickcking.com/2021/02/gpg-key-transition-statement/</guid>
-      <description>I have created a new GPG Key 0x944E36F397047609 and will be transitioning away from my old key. If you have signed my previous key I would appreciate signatures on my new key as well. I have included a signed transition statement below which can also be found at www.patrickcking.com/key-transition-2021-02-23.txt if you prefer to download it.
------BEGIN PGP SIGNED MESSAGE----- Hash: SHA512 OpenPGP Key Transition Statement for Patrick King I have created a new OpenPGP key and will be transitioning away from my old key.</description>
+      <description>I have created a new GPG Key 0x944E36F397047609 and will be transitioning away from my old key. I have also learned that ProtonMail (my provider) requires a primary key for management. As this is not something I am willing to give them, there will be a mismatch between my keys for email and everything else. You can find my new ProtonMail public key here.
+If you have signed my previous key I would appreciate signatures on my new key as well.</description>
     </item>
     
     <item>
@@ -34,7 +34,7 @@
       
       <guid>https://patrickcking.com/contact/</guid>
       <description>Below are my preferred contact methods in order of preference. Most of them are end to end encrypted allowing for greater privacy for both users.
- Matrix: @patrick:patrickcking.chat Signal: +15038054667 E-Mail: patrick@patrickcking.com  Please use PGP/MIME. My public email subkey can be found here.   Keybase: keybase://chat/king SMS Text Message Phone Calls  Other forms of communication should be encrypted with my GPG public key (0x2A590EC935F55DB1) if you want our communication to remain private.</description>
+ Matrix: @patrick:patrickcking.chat Signal: +15038054667 E-Mail: patrick@patrickcking.com  Please use PGP/MIME. My ProtonMail email public key can be found here.   Keybase: keybase://chat/king SMS Text Message Phone Calls  Other forms of communication should be encrypted with my GPG public key (0x944E36F397047609) if you want our communication to remain private.</description>
     </item>
     
     <item>

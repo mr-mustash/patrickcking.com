@@ -19,66 +19,65 @@ The new key, to which I am transitioning, is:
 pub   rsa4096/0x944E36F397047609 2021-02-23 [C]
       Key fingerprint = 228D FBBB A5E9 71D5 C3C6  31BE 944E 36F3 9704 7609
 
-The entire key may be downloaded from: [34m[34m[4mhttps://www.patrickcking.com/228DFBBBA5E971D5C3C631BE944E36F397047609.asc[39m[34m[24m[39m
+The entire key may be downloaded from: https://www.patrickcking.com/228DFBBBA5E971D5C3C631BE944E36F397047609.asc
 
 To fetch the full new key from a public key server using GnuPG, run:
 
-  gpg –keyserver keys.openpgp.org –recv-key 228DFBBBA5E971D5C3C631BE944E36F397047609
+  gpg --keyserver keys.openpgp.org --recv-key 228DFBBBA5E971D5C3C631BE944E36F397047609
 
 If you already know my old key, you can now verify that the new key is
 signed by the old one:
 
-  gpg –check-sigs 228DFBBBA5E971D5C3C631BE944E36F397047609
+  gpg --check-sigs 228DFBBBA5E971D5C3C631BE944E36F397047609
 
-If you are satisfied that you’ve got the right key, and the User IDs
+If you are satisfied that you've got the right key, and the User IDs
 match what you expect, I would appreciate it if you would sign my key:
 
-  gpg –sign-key 228DFBBBA5E971D5C3C631BE944E36F397047609
+  gpg --sign-key 228DFBBBA5E971D5C3C631BE944E36F397047609
 
 You can upload your signatures to a public keyserver directly:
 
-  gpg –keyserver keys.openpgp.org –send-key 228DFBBBA5E971D5C3C631BE944E36F397047609
+  gpg --keyserver keys.openpgp.org --send-key 228DFBBBA5E971D5C3C631BE944E36F397047609
 
-Or email [34mpatrick@patrickcking.com ([34m[4mmailto:patrick@patrickcking.com[39m[34m[24m)[39m (possibly encrypted) the output from:
+Or email patrick@patrickcking.com (possibly encrypted) the output from:
 
-  gpg –armor –export 228DFBBBA5E971D5C3C631BE944E36F397047609
+  gpg --armor --export 228DFBBBA5E971D5C3C631BE944E36F397047609
 
-If you’d like any further verification or have any questions about the
+If you'd like any further verification or have any questions about the
 transition please contact me directly.
 
 To verify the integrity of this statement:
 
-  wget -q -O- [34m[34m[4mhttps://www.patrickcking.com/key-transition-2021-02-23.txt|gpg[39m[34m[24m[39m –verify
+  wget -q -O- https://www.patrickcking.com/key-transition-2021-02-23.txt|gpg --verify
 
-– Patrick
+- -- Patrick
 PS: Thank you Simon Josefsson for the excelent guide on how to write this
-statement [34m[34m[4mhttps://blog.josefsson.org/2014/06/23/openpgp-key-transition-statement[39m[34m[24m[39m
-
+statement https://blog.josefsson.org/2014/06/23/openpgp-key-transition-statement
 -----BEGIN PGP SIGNATURE-----
 
-iQIzBAEBCgAdFiEEJp6HqLDk6har9hEBKlkOyTX1XbEFAmA1Sz8ACgkQKlkOyTX1
-XbGVLRAAijr9WZtUz+v/fhlkCA3drQJRr+o1ZukPYc6FZpiBHZW6NQnFxwzRLNsN
-4uIXTnS1hCWEgMMJVzbTKgIqkPGgHri/D1cVA/4PEE8uXHeKBQ8VaOIaVa2Wnttw
-JstdcO9eKFUsZqD3uOOfLubsd2dl6jbrSPjTul1MVk+Y6gS6jeWGAMy6kX+reA1H
-K81D05VPB/GIUJwocvGq1uctIgm2iqZogW+ax5wGTCR4VgmA6jmPGdThNZTN++sR
-lHdCWod6PbbIeYQzsY+8UHuA82r1cDL23K3xnRRqqaIWaVfzjLTa4lALL2UgCLKc
-hU4FLGiPtn1QNx0fiTyFHIi9XbNem1icAc1xbyrCIuK5JkG8OeeOuwDjJyxzIN4f
-FOODzA3XZAvMM5r6+ifyahS/ZYlU3IpT/veQGfjkuIlqzKiA/Saub1UYNiAA5KBU
-jGUuw+L0aBTn0A84CA/wA3NOHdwxl/gCKY3R8V19gXXK7oB0h5me925Q2cvszGMD
-T91J/92Ox6t3HNaMcATF44XoytZad++1mtS7L9bx4rXXcK+5OR0ENlDie/01+x9F
-Ob/O0GsNBFVvykhlQoZ5gbMB5NYJ4dslyiSwLQHl0cjImhEok3NS+WhBONHgwrRJ
-dkp4K1ZZXlZd4z/1n+oViswOI2V0DM+SSTM+/C+nUGPfQ6/GuLKJAjMEAQEKAB0W
-IQQkeJc0PYVEgvQXK2t7zoE5Cj/kYwUCYDVLQAAKCRB7zoE5Cj/kY3j7D/wLEahf
-Tdfed4A38IwDstHbDt6erqXM8+92XzIdwh5pb3yQanKeuON+itaePx8Fw9/kaudE
-aV3n+o0zGHwzRzBBo8NCUAujME/Rmisi22gRaK7MG/cx9NsJYoLngLGjuZe3J6sj
-DFkGeY5lcYBPJdp1q3vKmFo1zRaSWSLU1mwUreXyzYUl6hxSUYqoC5t0LEIXu1Fx
-FLvb7EdPJKtnRmp+gTmIkQ1FlVrE6MnV4yBf4uTyelvq3+BuzAEqIBpb96z/EVTF
-auGu3Kt1oWmElmCUrQhAPyxtqFAGiSpKGbXhDwiWY9PPl4YUbIMjRFMX63NqXJfd
-FcrkbVkqhRUpnvXTVRrxUf+TR9sI5nGhYVrorAvFwSN4nJSPP+weH45wFJMtzLBL
-TUnJRMtcvl64xDSAJcYsvAHM6mJgHJY4AY5ZfSwK4kiSO9HKAcZV+FJXpj7hASNT
-AflM2IB6ah2A5Ny+2GklJatSmfXJIwneHXrcfSLPgt2HKqJ8fJr+FzuiWokZOtH7
-Pdwfj6hRCwmPxcZOwSGvcNIlClaDZ+A3mOTz5tgeD8gOenNSKLLT2sa8emS1YvL0
-RS+GHzsdwU3N5uv7OrIMfYeLSeFqUxWh/ByFSsoIuiZPso0a0qtCIazdzAYhG/O4
-gWgaL0g4JxZbpKZl9aDovJBwPdmLiq+IAEhRmA==
-=TUAQ
+iQIzBAEBCgAdFiEEJp6HqLDk6har9hEBKlkOyTX1XbEFAmA1TG8ACgkQKlkOyTX1
+XbGBLBAAldWyODzccV+VINKCzgCNXzgyrtOkXNIcDGQZ709ifQqEA/VSFpIKH59/
+awq+h4c0ZCc8Y4qQ3/f+v2yCiCfx6CaUjmNx4y6sieWMOdUuRLvVay2LdXty9n9P
+IZqNHRXN/1s2pBxuY2sJMiLWGA3i5RJnV0XpRUhuTUZbWldyozG4WHijjCUUe85+
+vtmLOR2nQ3zjNlqWN+fQy1IZfQwyDqc5W5ihUQ9YA8rdTemazqhj4LxLQ/pm/Rdm
+1YzApszd6Gh6/s44Ur+xi66Zr4o7gDS+QZ39un0fDLPIIMNg6XB9ACAiQBCqEtqG
+OTwFIYoGcbtPX42lNFHagAYErKJZ5vQBmql2jL0sHa6ZtBbFmmvWW/n3Pa0P8np1
+g/UEb+GK7AvvCl4gDCgkkp5PCLxZsdJwzxCAVEZ/UfxpGwM2l/E6KX5S1i01/TNi
+1nwzIQhxn5ydfL1UeSL+ENp2DuKOPYm6zxQy2JsCjC+LBid1DXxRoAZnWu01rsNF
+5s4e4hPcwpEi+yHrMrkyuoU5d6CzFko4eSzCrj2aCuzzeQbXI8vtnHOndsQaBxZN
+XzcF7lprR2avMnd8kojtZXsL+ciYwmYcsOJE+J9Rwdq4oLh/k4yBn/5tP7f88p9A
+oj+gmX58j6LgeTY0Gk/w0pjfuqc6uZXfGhyeD55kKt6bPdzgN+eJAjMEAQEKAB0W
+IQQkeJc0PYVEgvQXK2t7zoE5Cj/kYwUCYDVMbwAKCRB7zoE5Cj/kY40wD/97RGfj
+QaDjbsqSOWnpnOibvhlL9eIrfOtywEN6MM65w9vAVKOBbHJDz6Lr+juNS9FMyTtr
+Hr4DRXipcn3GZpyvYNvxBUhVzXfs5Uk+rRvK22G0WXYgBYAM491yHzJy/WI/v0Ac
+nUBi9FaIOl2GFDxhufNgiBHIQ56pob8RhSzPjbKr19Vd6Z+/H2fbHkFYdQ2WibuA
+u1UiRljaP1kv1Nf/KBkyLjdo1GcxngopqcvN938E0EUa6lxQ32xxxiO/eBPBQCKi
+VJAZ5LvfIsKiR8fAQJephYdCWeFU+tD14FM09VHQM6t4Uw+2vaOnjUC0oFXvxfuL
+Xckg8FW9HSvxAE11KhgwiGYnW3Y9PDPKbCruwFtzdVDMQhfHTHwL0Rwkzob0ZpCq
+ieeIH5aeo7phJrmqOP0/VYPLAQUx6JZlw1QCReLtfp37yVgdYB4V7NeGWnBF/CPz
+DGCI9fF0jXyuqghEmIwBgyCb9bq1iWreYLAajD+bSbXGMgKwxkXqPDTcCXqpTEa9
+GovK7J7apH0Zs4Awvbc2BlnO7VyECE4beo2eTWi26RXWj+KuldfASdWQuHjnCEhL
+WYTUz+3LdMJtjNQ1s3V/l1loyFIkwiYKf3In/LhWlqZYN++9x7mt773/l0zftyiR
+YWX7063iwAbmNlfjUGKT3vLPsjb4+Df5MRC3ug==
+=Zfxv
 -----END PGP SIGNATURE-----
