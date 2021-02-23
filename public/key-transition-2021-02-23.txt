@@ -1,0 +1,84 @@
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA512
+
+OpenPGP Key Transition Statement for Patrick King
+
+I have created a new OpenPGP key and will be transitioning away from
+my old key.  The old key has not been compromised and will continue to
+be valid for some time, but I prefer all future correspondence to be
+encrypted to the new key, and will be making signatures with the new
+key going forward.
+
+The old key, which I am transitioning away from, is:
+
+pub   rsa4096/0x2A590EC935F55DB1 2014-04-11 [SCEA] [expires: 2024-04-08]
+      Key fingerprint = 269E 87A8 B0E4 EA16 ABF6  1101 2A59 0EC9 35F5 5DB1
+
+The new key, to which I am transitioning, is:
+
+pub   rsa4096/0x944E36F397047609 2021-02-23 [C]
+      Key fingerprint = 228D FBBB A5E9 71D5 C3C6  31BE 944E 36F3 9704 7609
+
+The entire key may be downloaded from: [34m[34m[4mhttps://www.patrickcking.com/228DFBBBA5E971D5C3C631BE944E36F397047609.asc[39m[34m[24m[39m
+
+To fetch the full new key from a public key server using GnuPG, run:
+
+  gpg –keyserver keys.openpgp.org –recv-key 228DFBBBA5E971D5C3C631BE944E36F397047609
+
+If you already know my old key, you can now verify that the new key is
+signed by the old one:
+
+  gpg –check-sigs 228DFBBBA5E971D5C3C631BE944E36F397047609
+
+If you are satisfied that you’ve got the right key, and the User IDs
+match what you expect, I would appreciate it if you would sign my key:
+
+  gpg –sign-key 228DFBBBA5E971D5C3C631BE944E36F397047609
+
+You can upload your signatures to a public keyserver directly:
+
+  gpg –keyserver keys.openpgp.org –send-key 228DFBBBA5E971D5C3C631BE944E36F397047609
+
+Or email [34mpatrick@patrickcking.com ([34m[4mmailto:patrick@patrickcking.com[39m[34m[24m)[39m (possibly encrypted) the output from:
+
+  gpg –armor –export 228DFBBBA5E971D5C3C631BE944E36F397047609
+
+If you’d like any further verification or have any questions about the
+transition please contact me directly.
+
+To verify the integrity of this statement:
+
+  wget -q -O- [34m[34m[4mhttps://www.patrickcking.com/key-transition-2021-02-23.txt|gpg[39m[34m[24m[39m –verify
+
+– Patrick
+PS: Thank you Simon Josefsson for the excelent guide on how to write this
+statement [34m[34m[4mhttps://blog.josefsson.org/2014/06/23/openpgp-key-transition-statement[39m[34m[24m[39m
+
+-----BEGIN PGP SIGNATURE-----
+
+iQIzBAEBCgAdFiEEJp6HqLDk6har9hEBKlkOyTX1XbEFAmA1Sz8ACgkQKlkOyTX1
+XbGVLRAAijr9WZtUz+v/fhlkCA3drQJRr+o1ZukPYc6FZpiBHZW6NQnFxwzRLNsN
+4uIXTnS1hCWEgMMJVzbTKgIqkPGgHri/D1cVA/4PEE8uXHeKBQ8VaOIaVa2Wnttw
+JstdcO9eKFUsZqD3uOOfLubsd2dl6jbrSPjTul1MVk+Y6gS6jeWGAMy6kX+reA1H
+K81D05VPB/GIUJwocvGq1uctIgm2iqZogW+ax5wGTCR4VgmA6jmPGdThNZTN++sR
+lHdCWod6PbbIeYQzsY+8UHuA82r1cDL23K3xnRRqqaIWaVfzjLTa4lALL2UgCLKc
+hU4FLGiPtn1QNx0fiTyFHIi9XbNem1icAc1xbyrCIuK5JkG8OeeOuwDjJyxzIN4f
+FOODzA3XZAvMM5r6+ifyahS/ZYlU3IpT/veQGfjkuIlqzKiA/Saub1UYNiAA5KBU
+jGUuw+L0aBTn0A84CA/wA3NOHdwxl/gCKY3R8V19gXXK7oB0h5me925Q2cvszGMD
+T91J/92Ox6t3HNaMcATF44XoytZad++1mtS7L9bx4rXXcK+5OR0ENlDie/01+x9F
+Ob/O0GsNBFVvykhlQoZ5gbMB5NYJ4dslyiSwLQHl0cjImhEok3NS+WhBONHgwrRJ
+dkp4K1ZZXlZd4z/1n+oViswOI2V0DM+SSTM+/C+nUGPfQ6/GuLKJAjMEAQEKAB0W
+IQQkeJc0PYVEgvQXK2t7zoE5Cj/kYwUCYDVLQAAKCRB7zoE5Cj/kY3j7D/wLEahf
+Tdfed4A38IwDstHbDt6erqXM8+92XzIdwh5pb3yQanKeuON+itaePx8Fw9/kaudE
+aV3n+o0zGHwzRzBBo8NCUAujME/Rmisi22gRaK7MG/cx9NsJYoLngLGjuZe3J6sj
+DFkGeY5lcYBPJdp1q3vKmFo1zRaSWSLU1mwUreXyzYUl6hxSUYqoC5t0LEIXu1Fx
+FLvb7EdPJKtnRmp+gTmIkQ1FlVrE6MnV4yBf4uTyelvq3+BuzAEqIBpb96z/EVTF
+auGu3Kt1oWmElmCUrQhAPyxtqFAGiSpKGbXhDwiWY9PPl4YUbIMjRFMX63NqXJfd
+FcrkbVkqhRUpnvXTVRrxUf+TR9sI5nGhYVrorAvFwSN4nJSPP+weH45wFJMtzLBL
+TUnJRMtcvl64xDSAJcYsvAHM6mJgHJY4AY5ZfSwK4kiSO9HKAcZV+FJXpj7hASNT
+AflM2IB6ah2A5Ny+2GklJatSmfXJIwneHXrcfSLPgt2HKqJ8fJr+FzuiWokZOtH7
+Pdwfj6hRCwmPxcZOwSGvcNIlClaDZ+A3mOTz5tgeD8gOenNSKLLT2sa8emS1YvL0
+RS+GHzsdwU3N5uv7OrIMfYeLSeFqUxWh/ByFSsoIuiZPso0a0qtCIazdzAYhG/O4
+gWgaL0g4JxZbpKZl9aDovJBwPdmLiq+IAEhRmA==
+=TUAQ
+-----END PGP SIGNATURE-----

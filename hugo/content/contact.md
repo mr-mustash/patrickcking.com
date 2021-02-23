@@ -9,12 +9,12 @@ Below are my preferred contact methods in order of preference. Most of them are 
 * [Matrix](https://matrix.org/): @patrick:patrickcking.chat
 * [Signal](https://www.signal.org/): +15038054667
 * E-Mail: patrick@patrickcking.com
-    * Please use PGP/MIME. My public email subkey can be found [here](/email.key).
+    * Please use PGP/MIME. My ProtonMail email public key can be found [here](/D7CC62B01351B2DE7998B63AB979E239DBC680A4.asc).
 * [Keybase](https://keybase.io): [keybase://chat/king](keybase://chat/king)
 * SMS Text Message
 * Phone Calls
 
-Other forms of communication should be encrypted with my GPG public key ([0x2A590EC935F55DB1](https://keyserver.ubuntu.com/pks/lookup?search=0x2A590EC935F55DB1&fingerprint=on&op=index)) if you want our communication to remain private.
+Other forms of communication should be encrypted with my GPG public key ([0x944E36F397047609](https://keyserver.ubuntu.com/pks/lookup?search=0x944E36F397047609&fingerprint=on&op=index)) if you want our communication to remain private.
 
 
 ---

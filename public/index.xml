@@ -7,7 +7,17 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&lt;a href=&#34;https://creativecommons.org/licenses/by-nc/4.0/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;CC BY-NC 4.0&lt;/a&gt;</copyright>
-    <lastBuildDate>Wed, 10 Feb 2021 11:38:36 -0800</lastBuildDate><atom:link href="https://patrickcking.com/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 23 Feb 2021 09:50:19 -0800</lastBuildDate><atom:link href="https://patrickcking.com/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>GPG Key Transition Statement</title>
+      <link>https://patrickcking.com/2021/02/gpg-key-transition-statement/</link>
+      <pubDate>Tue, 23 Feb 2021 09:50:19 -0800</pubDate>
+      
+      <guid>https://patrickcking.com/2021/02/gpg-key-transition-statement/</guid>
+      <description>I have created a new GPG Key 0x944E36F397047609 and will be transitioning away from my old key. If you have signed my previous key I would appreciate signatures on my new key as well. I have included a signed transition statement below which can also be found at www.patrickcking.com/key-transition-2021-02-23.txt if you prefer to download it.
+-----BEGIN PGP SIGNED MESSAGE----- Hash: SHA512 OpenPGP Key Transition Statement for Patrick King I have created a new OpenPGP key and will be transitioning away from my old key.</description>
+    </item>
+    
     <item>
       <title>New Website!</title>
       <link>https://patrickcking.com/2021/02/new-website/</link>

@@ -1,0 +1,52 @@
+OpenPGP Key Transition Statement for Patrick King
+
+I have created a new OpenPGP key and will be transitioning away from
+my old key.  The old key has not been compromised and will continue to
+be valid for some time, but I prefer all future correspondence to be
+encrypted to the new key, and will be making signatures with the new
+key going forward.
+
+The old key, which I am transitioning away from, is:
+
+pub   rsa4096/0x2A590EC935F55DB1 2014-04-11 [SCEA] [expires: 2024-04-08]
+      Key fingerprint = 269E 87A8 B0E4 EA16 ABF6  1101 2A59 0EC9 35F5 5DB1
+
+The new key, to which I am transitioning, is:
+
+pub   rsa4096/0x944E36F397047609 2021-02-23 [C]
+      Key fingerprint = 228D FBBB A5E9 71D5 C3C6  31BE 944E 36F3 9704 7609
+
+The entire key may be downloaded from: https://www.patrickcking.com/228DFBBBA5E971D5C3C631BE944E36F397047609.asc
+
+To fetch the full new key from a public key server using GnuPG, run:
+
+  gpg --keyserver keys.openpgp.org --recv-key 228DFBBBA5E971D5C3C631BE944E36F397047609
+
+If you already know my old key, you can now verify that the new key is
+signed by the old one:
+
+  gpg --check-sigs 228DFBBBA5E971D5C3C631BE944E36F397047609
+
+If you are satisfied that you've got the right key, and the User IDs
+match what you expect, I would appreciate it if you would sign my key:
+
+  gpg --sign-key 228DFBBBA5E971D5C3C631BE944E36F397047609
+
+You can upload your signatures to a public keyserver directly:
+
+  gpg --keyserver keys.openpgp.org --send-key 228DFBBBA5E971D5C3C631BE944E36F397047609
+
+Or email patrick@patrickcking.com (possibly encrypted) the output from:
+
+  gpg --armor --export 228DFBBBA5E971D5C3C631BE944E36F397047609
+
+If you'd like any further verification or have any questions about the
+transition please contact me directly.
+
+To verify the integrity of this statement:
+
+  wget -q -O- https://www.patrickcking.com/key-transition-2021-02-23.txt|gpg --verify
+
+-- Patrick
+PS: Thank you Simon Josefsson for the excelent guide on how to write this
+statement https://blog.josefsson.org/2014/06/23/openpgp-key-transition-statement
