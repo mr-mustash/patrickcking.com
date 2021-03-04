@@ -6,6 +6,12 @@ theme        = "hello-friend-ng"
 paginate     = 10
 relativeURLs = true
 
+PygmentsCodeFences = true
+PygmentsStyle = "solarized"
+
+copyright = "This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License." # This message is only used by the RSS template.
+
+
 [params]
   dateform        = "Jan 2, 2006"
   dateformShort   = "Jan 2"
@@ -16,7 +22,7 @@ relativeURLs = true
   #homeSubtitle = "Patrick King"
 
   # Set disableReadOtherPosts to true in order to hide the links to other posts.
-  disableReadOtherPosts = false
+  disableReadOtherPosts = true
 
   # Enable sharing buttons, if you linke
   enableSharingButtons = false
@@ -24,7 +30,8 @@ relativeURLs = true
   # Metadata mostly used in document's head
   description = "Patrick King's Landing Page"
   keywords = "homepage, blog, patrickcking"
-  images = [""]
+
+  footerRight = "Made in Oregon"
 
 [permalinks]
   blog = "/:year/:month/:title/"
@@ -38,7 +45,6 @@ relativeURLs = true
     subtitle = "Patrick's Home"
     keywords = ""
     copyright = '<a href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank" rel="noopener">CC BY-NC 4.0</a>'
-    readOtherPosts = "Read other posts"
 
 [params.logo]
   logoText = "cd /home/pking"
@@ -49,17 +55,17 @@ relativeURLs = true
 
 # And you can even create generic menu
 [[menu.main]]
-  identifier = "blog"
-  name       = "Blog"
-  url        = "/blog"
+  identifier = "posts"
+  name       = "Posts"
+  url        = "/posts"
 [[menu.main]]
   identifier = "contact"
   name       = "Contact"
   url        = "/contact"
-[[menu.main]]
-  identifier = "events"
-  name       = "Events"
-  url        = "/events"
+#[[menu.main]]
+#  identifier = "events"
+#  name       = "Events"
+#  url        = "/events"
 
  # Socials
 [[params.social]]
